@@ -1,0 +1,66 @@
+.main-conatainer{
+    height: 250px;
+    width: 400px;
+    background-color: rgb(3, 75, 3);
+    background-size: 250px 400px;
+    opacity: 0.6;
+    margin: auto;
+    margin-top: 150px;
+    border-radius: 10px;
+    border: 2px solid antiquewhite;
+}
+
+
+.container{
+    display: flex;
+    flex-direction: row;
+    color: whitesmoke;
+    justify-content: center;
+}
+
+h2{
+    text-align: end;
+}
+
+.days{
+    margin: 20px;
+}
+
+.hours{
+    margin: 20px;
+}
+
+.minutes{
+    margin: 20px;
+}
+
+.seconds{
+    margin: 20px;
+}
+
+.submitPart{
+    margin-left: 30%;
+}
+
+#dateInput{
+    height: 30px;
+    width: 180px;
+    margin-left: -10px;
+    border-radius: 5px;
+}
+
+#submitPartLabel{
+    margin-top: 10px;
+    color: antiquewhite;
+}
+
+#submitButton{
+    height: 30px;
+    width: 150px;
+    border-radius: 10px;
+    margin-left: 2%;
+    margin-top: 2%;
+    color: antiquewhite;
+    background-color: rgb(103, 168, 102);
+    border: 2px solid antiquewhite;
+}
